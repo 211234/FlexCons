@@ -3,7 +3,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register"
 import NotFound from "../pages/Notfound";
 import CambiarContraseña from "../pages/CambiarContraseña";
-import Verification from "../pages/Verification";
+import Check from "../pages/Check";
 
 function App() {
     return ( 
@@ -12,7 +12,7 @@ function App() {
             <Route path="/" element={<Login/>} />
             <Route path="/register" element={<Register/>} />
             <Route path="/cambiarcontraseña" element={<CambiarContraseña/>} />
-            <Route path="/verification" element={<Verification/>} />
+            <Route path="/check" element={<Check/>} />
             <Route path="/notFound" element={<NotFound/>} />
           </Routes>
         </BrowserRouter>

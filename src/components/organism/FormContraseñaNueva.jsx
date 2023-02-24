@@ -24,7 +24,7 @@ function FormContraseñaNueva() {
             type="text"
             placeholder="Write Answer" />
 
-            <Link to="/verification">Verificar</Link>
+            <Link to="/check">Verificar</Link>
             <Link to="/">Cancelar</Link>
         </div>
      );
