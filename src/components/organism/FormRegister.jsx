@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import Title from "../atoms/Title";
 import WrapperInput from "../molecules/WrapperInput";
 import Imagen from "../atoms/Imagen";
 
-function FormLogin() {
+function FormRegister() {
     return ( 
         <div>
             <Imagen />
@@ -36,4 +37,4 @@ function FormLogin() {
      );
 }
 
-export default FormLogin;
+export default FormRegister;
