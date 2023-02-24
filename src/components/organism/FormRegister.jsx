@@ -33,6 +33,10 @@ function FormRegister() {
             msn="Password"
             type="password"
             placeholder="Write Password" />
+
+            <Link to="/notFound">Enviar</Link>
+
+        <h4>Ya tienes Cuenta? </h4> <Link to="/register">Inicia Sesion</Link>
         </div>
      );
 }

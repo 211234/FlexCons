@@ -19,6 +19,8 @@ function FormLogin() {
             type="password"
             placeholder="Write Password" />
 
+        <h4>Quieres cambiar de Contraseña?</h4> <Link to="/cambiarcontraseña">Cambiar Contraseña</Link>
+
             <Link to="/notFound">Enviar</Link>
 
         <h4>No tienes una Cuenta? Registrate</h4>
